@@ -1,11 +1,6 @@
 import React from 'react';
 import CardItem from './CardItem.js';
 import './Cards.css';
-import img9 from '../../images/img-9.jpg';
-import img2 from '../../public/images/img-2.jpg';
-import img3 from '../../public/images/img-3.jpg';
-import img4 from '../../public/images/img-4.jpg';
-import img8 from '../../public/images/img-8.jpg';
 
 function Cards() {
     return (
@@ -15,14 +10,14 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                          src={img9}
+                          src="/images/img-9.jpg"
                           text="Explore the hidden waterfall deep
                           inside the Amazon Jungle"
                           label='Adventure'
                           path='/services'
                         />
                         <CardItem 
-                          src={img2}
+                          src="/images/img-2.jpg"
                           text="Travel through the Islands of Bali in a
                           Private Cruise"
                           label='Luxury'
@@ -31,21 +26,21 @@ function Cards() {
                     </ul>
                     <ul className="cards__items">
                         <CardItem 
-                          src={img3}
+                          src="/images/img-3.jpg"
                           text="Set Sail in the Atlantic Ocean visiting
                           Uncharted Waters"
                           label='Mystery'
                           path='/services'
                         />
                         <CardItem 
-                          src={img4}
+                          src="/images/img-9.jpg"
                           text="Experience Football on Top of the Himilayan
                           Mountains"
                           label='Adventure'
                           path='/products'
                         />
                         <CardItem 
-                          src={img8}
+                          src="/images/img-8.jpg"
                           text="Ride through the Sahara Desert on a guided
                           camel tour"
                           label='Adrenaline'
