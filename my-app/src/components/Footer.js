@@ -76,6 +76,38 @@ function Footer() {
                         >
                             <i className="fab fa-facebook-f"></i>
                         </Link>
+                        <Link 
+                          className="social-icon-link instagram"
+                          to="/"
+                          target="_blank"
+                          arial-label="Instagram"
+                        >
+                            <i className="fab fa-instagram"></i>
+                        </Link>
+                        <Link 
+                          className="social-icon-link youtube"
+                          to="/"
+                          target="_blank"
+                          arial-label="Youtube"
+                        >
+                            <i className="fab fa-youtube"></i>
+                        </Link>
+                        <Link 
+                          className="social-icon-link twitter"
+                          to="/"
+                          target="_blank"
+                          arial-label="Twitter"
+                        >
+                            <i className="fab fa-twitter"></i>
+                        </Link>
+                        <Link 
+                          className="social-icon-link twitter"
+                          to="/"
+                          target="_blank"
+                          arial-label="LinkedIn"
+                        >
+                            <i className="fab fa-linkedin"></i>
+                        </Link>
                     </div>
                 </div>
             </section>
