@@ -59,6 +59,26 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            <section className="social-media">
+                <div className="social-media-wrap">
+                    <div className="footer-logo">
+                        <Link to="/" className="social-logo">
+                            TRVL <i className="fab fa-typo3"></i>
+                        </Link>
+                    </div>
+                    <small className="website-rights">TRVL © 2022</small>
+                    <div className="social-icons">
+                        <Link 
+                          className="social-icon-link facebook"
+                          to="/"
+                          target="_blank"
+                          arial-label="Facebook"
+                        >
+                            <i className="fab fa-facebook-f"></i>
+                        </Link>
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }
